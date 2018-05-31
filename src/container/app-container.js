@@ -18,4 +18,4 @@ const mapStateToProps=(state) => {
   return state;
 };
 
-export default connect (mapStateToProps, actionCreators)(AppCon);
+export default connect(mapStateToProps, actionCreators)(AppCon);

@@ -1,16 +1,11 @@
-let defaultState = {
-};
+let defaultState = {};
 
 const mainReducer = (state = defaultState, action) => {
   switch (action.type) {
   case 'SHOW_FILTERS':
-    return {
-      ...state
-    };
+    return {...state};
   default:
-    return {
-      ...state
-    };
+    return {...state};
   }
 };
 

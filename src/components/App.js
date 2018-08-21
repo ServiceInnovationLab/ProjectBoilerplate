@@ -4,7 +4,6 @@ import * as actionCreators from '../actions/index';
 import '../styles/App.css';
 
 class App extends Component {
-
   render() {
     return (
       <div>Project Boilerplate</div>

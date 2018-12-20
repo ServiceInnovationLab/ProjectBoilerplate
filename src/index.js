@@ -16,7 +16,8 @@ class App extends React.Component {
       <HashRouter>
         <div>
           <h1>Project Boilerplate</h1>
-          <Route exact
+          <Route
+            exact
             path="/"
             component={AppCon}
           />

@@ -16,15 +16,16 @@ class App extends React.Component {
       <HashRouter>
         <div>
           <h1>Project Boilerplate</h1>
-          <Route
-            exact
-            path="/"
-            component={AppCon}
-          />
+          <Route exact path="/" component={AppCon} />
         </div>
       </HashRouter>
     );
   }
 }
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root'),
+);

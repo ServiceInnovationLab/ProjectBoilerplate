@@ -5,15 +5,15 @@ import '../styles/App.css';
 
 class App extends Component {
   render() {
-    return (
-      <div>Project Boilerplate</div>
-    );
+    return <div>Project Boilerplate</div>;
   }
 }
-
 
 function mapStateToProps(state) {
   return { state };
 }
 
-export default connect(mapStateToProps, actionCreators)(App);
+export default connect(
+  mapStateToProps,
+  actionCreators,
+)(App);

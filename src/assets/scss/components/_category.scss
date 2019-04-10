@@ -1,0 +1,12 @@
+.category {
+  &__container {
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    &.selected {
+      background-color: $primary-color;
+      color: rgba($white, 0.9);
+    }
+  }
+}

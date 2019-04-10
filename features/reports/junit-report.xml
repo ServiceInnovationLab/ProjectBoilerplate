@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="address-auto-suggest-field;i-am-typing-into-the-address-box-and-i-use-the-backspace-key-to-edit-my-entry" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/address-autosuggest.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="address-auto-suggest-field;i-am-typing-into-the-address-box-and-i-use-the-backspace-key-to-edit-my-entry" time="14.482715196">
+        </testcase>
+        <testcase name="Given I enter &quot;asdf&quot; into the &quot;address-autosuggest&quot; input" classname="address-auto-suggest-field;i-am-typing-into-the-address-box-and-i-use-the-backspace-key-to-edit-my-entry" time="0.226533023">
+        </testcase>
+        <testcase name="And I press the Backspace key in the address box" classname="address-auto-suggest-field;i-am-typing-into-the-address-box-and-i-use-the-backspace-key-to-edit-my-entry" time="0.239416621">
+        </testcase>
+        <testcase name="Then the address box shows &quot;asd&quot;" classname="address-auto-suggest-field;i-am-typing-into-the-address-box-and-i-use-the-backspace-key-to-edit-my-entry" time="0.108074934">
+        </testcase>
+    </testsuite>
+    <testsuite name="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace" tests="8" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/address-autosuggest.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace" time="2.725666597">
+        </testcase>
+        <testcase name="Given I search near the address &quot;36 Leach Street, New Plymouth&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace" time="1.713505051">
+        </testcase>
+        <testcase name="And I press the Backspace key in the address box" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace" time="0.017813333">
+        </testcase>
+        <testcase name="Then the address box is empty" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace" time="0.142988411">
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;address&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace" time="0.007464578">
+            <failure message="SyntaxError: Invalid regular expression: /^(?&lt;main&gt;[^#]*)#(?&lt;path&gt;[^?#]*)?(?&lt;query&gt;\?[^?#]*)?(?&lt;fragment&gt;#[^#?]*)?$/: Invalid group">SyntaxError: Invalid regular expression: /^(?&lt;main&gt;[^#]*)#(?&lt;path&gt;[^?#]*)?(?&lt;query&gt;\?[^?#]*)?(?&lt;fragment&gt;#[^#?]*)?$/: Invalid group
+    at getUrlFragmentGroups (/Users/danaiti/dia/FSD/src/utilities/hashRoutedUrls.js:60:17)
+    at getQueryParams (/Users/danaiti/dia/FSD/src/utilities/hashRoutedUrls.js:42:28)
+    at getCurrentUrlQueryParameters (/Users/danaiti/dia/FSD/features/step_definitions/url-steps.js:5:10)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;location&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;latitude&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;longitude&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-backspace">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear" tests="8" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/address-autosuggest.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear" time="2.772623498">
+        </testcase>
+        <testcase name="Given I search near the address &quot;36 Leach Street, New Plymouth&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear" time="1.629496808">
+        </testcase>
+        <testcase name="And I press the Clear key in the address box" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear" time="0.019825001">
+        </testcase>
+        <testcase name="Then the address box is empty" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear" time="0.121527808">
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;address&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear" time="0.005846707">
+            <failure message="SyntaxError: Invalid regular expression: /^(?&lt;main&gt;[^#]*)#(?&lt;path&gt;[^?#]*)?(?&lt;query&gt;\?[^?#]*)?(?&lt;fragment&gt;#[^#?]*)?$/: Invalid group">SyntaxError: Invalid regular expression: /^(?&lt;main&gt;[^#]*)#(?&lt;path&gt;[^?#]*)?(?&lt;query&gt;\?[^?#]*)?(?&lt;fragment&gt;#[^#?]*)?$/: Invalid group
+    at getUrlFragmentGroups (/Users/danaiti/dia/FSD/src/utilities/hashRoutedUrls.js:60:17)
+    at getQueryParams (/Users/danaiti/dia/FSD/src/utilities/hashRoutedUrls.js:42:28)
+    at getCurrentUrlQueryParameters (/Users/danaiti/dia/FSD/features/step_definitions/url-steps.js:5:10)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;location&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;latitude&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;longitude&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-clear">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete" tests="8" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/address-autosuggest.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete" time="2.436817068">
+        </testcase>
+        <testcase name="Given I search near the address &quot;36 Leach Street, New Plymouth&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete" time="1.596072061">
+        </testcase>
+        <testcase name="And I press the Delete key in the address box" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete" time="0.025349809">
+        </testcase>
+        <testcase name="Then the address box is empty" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete" time="0.126871378">
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;address&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete" time="0.006480204">
+            <failure message="SyntaxError: Invalid regular expression: /^(?&lt;main&gt;[^#]*)#(?&lt;path&gt;[^?#]*)?(?&lt;query&gt;\?[^?#]*)?(?&lt;fragment&gt;#[^#?]*)?$/: Invalid group">SyntaxError: Invalid regular expression: /^(?&lt;main&gt;[^#]*)#(?&lt;path&gt;[^?#]*)?(?&lt;query&gt;\?[^?#]*)?(?&lt;fragment&gt;#[^#?]*)?$/: Invalid group
+    at getUrlFragmentGroups (/Users/danaiti/dia/FSD/src/utilities/hashRoutedUrls.js:60:17)
+    at getQueryParams (/Users/danaiti/dia/FSD/src/utilities/hashRoutedUrls.js:42:28)
+    at getCurrentUrlQueryParameters (/Users/danaiti/dia/FSD/features/step_definitions/url-steps.js:5:10)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)</failure>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;location&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;latitude&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;longitude&quot;" classname="address-auto-suggest-field;i-select-and-address-suggestion-then-clear-it-by-pressing-delete">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="github-pages;using-hashrouter-to-store-the-url-path-in-the-url-fragment-instead" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/github-pages.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="github-pages;using-hashrouter-to-store-the-url-path-in-the-url-fragment-instead" time="2.741258901">
+        </testcase>
+        <testcase name="Then the URL &quot;pathname&quot; is &quot;/&quot;" classname="github-pages;using-hashrouter-to-store-the-url-path-in-the-url-fragment-instead" time="0.05122048">
+        </testcase>
+        <testcase name="And the URL &quot;hash&quot; is &quot;#/&quot;" classname="github-pages;using-hashrouter-to-store-the-url-path-in-the-url-fragment-instead" time="0.007870217">
+        </testcase>
+    </testsuite>
+    <testsuite name="stuff-on-the-main-page;i-can-see-the-standard-search-controls" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/main-page.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="stuff-on-the-main-page;i-can-see-the-standard-search-controls" time="2.408563868">
+        </testcase>
+        <testcase name="Then I see the keyword search box" classname="stuff-on-the-main-page;i-can-see-the-standard-search-controls" time="0.13813456">
+        </testcase>
+        <testcase name="And I see the location search box" classname="stuff-on-the-main-page;i-can-see-the-standard-search-controls" time="0.066355084">
+        </testcase>
+        <testcase name="And I see some category selectors" classname="stuff-on-the-main-page;i-can-see-the-standard-search-controls" time="0.032967766">
+        </testcase>
+        <testcase name="And I do not see the radius selector" classname="stuff-on-the-main-page;i-can-see-the-standard-search-controls" time="0.042591775">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-near-a-location" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-near-a-location" time="2.563793029">
+        </testcase>
+        <testcase name="Given I search near the address &quot;36 Leach Street, New Plymouth&quot;" classname="example-search-scenarios;i-search-near-a-location" time="1.425060241">
+        </testcase>
+        <testcase name="Then I see at least &quot;5&quot; service providers" classname="example-search-scenarios;i-search-near-a-location" time="1.172367325">
+        </testcase>
+        <testcase name="And The first result is &quot;Epilepsy Association of New Zealand Taranaki Branch&quot;" classname="example-search-scenarios;i-search-near-a-location" time="0.01924973">
+        </testcase>
+        <testcase name="And a result is &quot;New Plymouth Budget Advisory Service&quot;" classname="example-search-scenarios;i-search-near-a-location" time="0.018327">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-with-a-category-and-a-location" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-with-a-category-and-a-location" time="2.455108976">
+        </testcase>
+        <testcase name="Given I click on &quot;Budgeting / Financial Capability&quot;" classname="example-search-scenarios;i-search-with-a-category-and-a-location" time="0.12686577">
+        </testcase>
+        <testcase name="And I search near the address &quot;36 Leach Street, New Plymouth&quot;" classname="example-search-scenarios;i-search-with-a-category-and-a-location" time="1.467926608">
+        </testcase>
+        <testcase name="Then I see at least &quot;5&quot; service providers" classname="example-search-scenarios;i-search-with-a-category-and-a-location" time="0.022004312">
+        </testcase>
+        <testcase name="And The first result is &quot;New Plymouth Budget Advisory Service&quot;" classname="example-search-scenarios;i-search-with-a-category-and-a-location" time="0.019630721">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-in-a-wide-area-around-wellington" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="2.596799002">
+        </testcase>
+        <testcase name="Given I click on &quot;Child Care&quot;" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="0.184038014">
+        </testcase>
+        <testcase name="Given I search near the address &quot;56 The Terrace, Wellington Central&quot;" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="1.493605407">
+        </testcase>
+        <testcase name="And I click on the &quot;button&quot; with &quot;value&quot; &quot;100&quot;" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="0.027923293">
+        </testcase>
+        <testcase name="And I click on &quot;Magnifying Glass&quot;" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="0.123772973">
+        </testcase>
+        <testcase name="Then I see at least &quot;10&quot; service providers" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="0.746973017">
+        </testcase>
+        <testcase name="And I see a &quot;address&quot; which says &quot;Lower Hutt&quot;" classname="example-search-scenarios;i-search-in-a-wide-area-around-wellington" time="0.019969353">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-for-a-phrase" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-for-a-phrase" time="2.356045896">
+        </testcase>
+        <testcase name="Given I enter &quot;age concern&quot; into the &quot;keyword&quot; input" classname="example-search-scenarios;i-search-for-a-phrase" time="0.142745531">
+        </testcase>
+        <testcase name="And I click on &quot;Magnifying Glass&quot;" classname="example-search-scenarios;i-search-for-a-phrase" time="0.191955871">
+        </testcase>
+        <testcase name="Then I see a &quot;header&quot; which says &quot;Age Concern&quot;" classname="example-search-scenarios;i-search-for-a-phrase" time="1.055599886">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-for-a-service-provider-with-an-address-but-no-street-number" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-for-a-service-provider-with-an-address-but-no-street-number" time="2.685345498">
+        </testcase>
+        <testcase name="Given I enter &quot;Turanga&quot; into the &quot;keyword&quot; input" classname="example-search-scenarios;i-search-for-a-service-provider-with-an-address-but-no-street-number" time="0.073281244">
+        </testcase>
+        <testcase name="And I search near the address &quot;Gisborne&quot;" classname="example-search-scenarios;i-search-for-a-service-provider-with-an-address-but-no-street-number" time="1.095302138">
+        </testcase>
+        <testcase name="Then a result is &quot;Tūranga Ararau&quot;" classname="example-search-scenarios;i-search-for-a-service-provider-with-an-address-but-no-street-number" time="0.384360115">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-and-find-a-lot-of-results,-but-only-see-the-top-50-service-providers" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-and-find-a-lot-of-results,-but-only-see-the-top-50-service-providers" time="2.323486022">
+        </testcase>
+        <testcase name="Given I enter &quot;Citizens Advice Bureau&quot; into the &quot;keyword&quot; input" classname="example-search-scenarios;i-search-and-find-a-lot-of-results,-but-only-see-the-top-50-service-providers" time="0.084287744">
+        </testcase>
+        <testcase name="And I click on &quot;Magnifying Glass&quot;" classname="example-search-scenarios;i-search-and-find-a-lot-of-results,-but-only-see-the-top-50-service-providers" time="0.316549953">
+        </testcase>
+        <testcase name="Then I see exactly &quot;50&quot; service providers" classname="example-search-scenarios;i-search-and-find-a-lot-of-results,-but-only-see-the-top-50-service-providers" time="1.13821623">
+        </testcase>
+        <testcase name="And the search summary says &quot;50&quot;" classname="example-search-scenarios;i-search-and-find-a-lot-of-results,-but-only-see-the-top-50-service-providers" time="0.015913381">
+        </testcase>
+    </testsuite>
+    <testsuite name="example-search-scenarios;i-search-and-find-27-results,-and-see-all-of-them-displayed" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search-examples.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="example-search-scenarios;i-search-and-find-27-results,-and-see-all-of-them-displayed" time="2.518724337">
+        </testcase>
+        <testcase name="Given I enter &quot;Stand Children&apos;s Services&quot; into the &quot;keyword&quot; input" classname="example-search-scenarios;i-search-and-find-27-results,-and-see-all-of-them-displayed" time="0.124625817">
+        </testcase>
+        <testcase name="And I click on &quot;Magnifying Glass&quot;" classname="example-search-scenarios;i-search-and-find-27-results,-and-see-all-of-them-displayed" time="0.333212946">
+        </testcase>
+        <testcase name="Then I see exactly &quot;27&quot; service providers" classname="example-search-scenarios;i-search-and-find-27-results,-and-see-all-of-them-displayed" time="0.883953926">
+        </testcase>
+        <testcase name="And the search summary says &quot;27&quot;" classname="example-search-scenarios;i-search-and-find-27-results,-and-see-all-of-them-displayed" time="0.016580716">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-on-the-main-page;i-search-for-&quot;family&quot;-and-get-some-results" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="searching-on-the-main-page;i-search-for-&quot;family&quot;-and-get-some-results" time="3.153247482">
+        </testcase>
+        <testcase name="Given I enter &quot;family&quot; into the &quot;keyword&quot; input" classname="searching-on-the-main-page;i-search-for-&quot;family&quot;-and-get-some-results" time="0.200330781">
+        </testcase>
+        <testcase name="And I click on &quot;Magnifying Glass&quot;" classname="searching-on-the-main-page;i-search-for-&quot;family&quot;-and-get-some-results" time="0.190404112">
+        </testcase>
+        <testcase name="Then I see at least &quot;5&quot; service providers" classname="searching-on-the-main-page;i-search-for-&quot;family&quot;-and-get-some-results" time="1.94337134">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-on-the-main-page;i-search-near-thorndon-quay-and-get-some-results" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="searching-on-the-main-page;i-search-near-thorndon-quay-and-get-some-results" time="2.65213493">
+        </testcase>
+        <testcase name="Given I search near the address &quot;Thorndon Quay&quot;" classname="searching-on-the-main-page;i-search-near-thorndon-quay-and-get-some-results" time="1.169362652">
+        </testcase>
+        <testcase name="Then I see at least &quot;5&quot; service providers" classname="searching-on-the-main-page;i-search-near-thorndon-quay-and-get-some-results" time="0.761394041">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-on-the-main-page;address-searches-will-autosuggest-regions" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="searching-on-the-main-page;address-searches-will-autosuggest-regions" time="2.357607698">
+        </testcase>
+        <testcase name="Given I enter &quot;Thorndon Quay&quot; into the &quot;address-autosuggest&quot; input" classname="searching-on-the-main-page;address-searches-will-autosuggest-regions" time="0.098241588">
+        </testcase>
+        <testcase name="Then The first suggestion is &quot;Thorndon Quay, Pipitea, Wellington&quot;" classname="searching-on-the-main-page;address-searches-will-autosuggest-regions" time="0.445040247">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-on-the-main-page;address-searches-will-autosuggest-street-addresses" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="searching-on-the-main-page;address-searches-will-autosuggest-street-addresses" time="2.328797176">
+        </testcase>
+        <testcase name="Given I enter &quot;191 Thorndon&quot; into the &quot;address-autosuggest&quot; input" classname="searching-on-the-main-page;address-searches-will-autosuggest-street-addresses" time="0.133493713">
+        </testcase>
+        <testcase name="Then The first suggestion is &quot;191 Thorndon Quay, Pipitea, Wellington&quot;" classname="searching-on-the-main-page;address-searches-will-autosuggest-street-addresses" time="0.406304404">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter" tests="9" failures="1" skipped="6">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter" time="2.274949331">
+        </testcase>
+        <testcase name="Given I enter &quot;191 Thorndon&quot; into the &quot;address-autosuggest&quot; input" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter" time="0.108750067">
+        </testcase>
+        <testcase name="And The first suggestion is &quot;191 Thorndon Quay, Pipitea, Wellington 6011&quot;" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter" time="10.001997397">
+            <failure message="TimeoutError: Waiting for at least one element to be located By(xpath, //*[@id=&apos;react-autowhatever-1--item-0&apos;]//div[contains(string(), &apos;191 Thorndon Quay, Pipitea, Wellington 6011&apos;)])">TimeoutError: Waiting for at least one element to be located By(xpath, //*[@id=&apos;react-autowhatever-1--item-0&apos;]//div[contains(string(), &apos;191 Thorndon Quay, Pipitea, Wellington 6011&apos;)])
+Wait timed out after 10001ms
+    at /Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:2209:17
+    at ManagedPromise.invokeCallback_ (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:1384:14)
+    at TaskQueue.execute_ (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at asyncRun (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:2935:27)
+    at /Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Waiting for at least one element to be located By(xpath, //*[@id=&apos;react-autowhatever-1--item-0&apos;]//div[contains(string(), &apos;191 Thorndon Quay, Pipitea, Wellington 6011&apos;)])
+    at scheduleWait (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:2196:20)
+    at ControlFlow.wait (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/promise.js:2525:12)
+    at thenableWebDriverProxy.wait (/Users/danaiti/dia/FSD/node_modules/selenium-webdriver/lib/webdriver.js:934:29)
+    at createWorld.Then (/Users/danaiti/dia/FSD/features/step_definitions/main-page-steps.js:148:18)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+        </testcase>
+        <testcase name="And I click on the first address suggestion" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the address box shows &quot;191 Thorndon Quay, Pipitea, Wellington 6011&quot;" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query has key &quot;address&quot; with value &quot;191 Thorndon Quay, Pipitea, Wellington 6011&quot;" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query does not have key &quot;location&quot;" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query has key &quot;latitude&quot; with value &quot;-41.2717302167&quot;" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the URL query has key &quot;longitude&quot; with value &quot;174.7817695667&quot;" classname="searching-on-the-main-page;when-i-select-an-address-suggestion-it-is-used-as-a-search-parameter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/service-page.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="2.678859049">
+        </testcase>
+        <testcase name="And I search for &quot;food&quot;" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.074610827">
+        </testcase>
+        <testcase name="When the address box is empty" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.256372677">
+        </testcase>
+        <testcase name="Then I consider the first result" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.98537357">
+        </testcase>
+        <testcase name="And I click on the result title" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.152956559">
+        </testcase>
+        <testcase name="Then I am on a service detail page" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.011071557">
+        </testcase>
+        <testcase name="And the page shows a provider" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.263458013">
+        </testcase>
+        <testcase name="And the provider has a &quot;Directions&quot; link" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.030048883">
+        </testcase>
+        <testcase name="And the link URL contains &quot;dir//&quot;" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-even-i-didn&apos;t-enter-my-location" time="0.006193418">
+        </testcase>
+    </testsuite>
+    <testsuite name="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/service-page.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="2.404501607">
+        </testcase>
+        <testcase name="And I search for &quot;food&quot;" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.11032251">
+        </testcase>
+        <testcase name="When I search near the address &quot;Wellington Harbour&quot;" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="1.26913778">
+        </testcase>
+        <testcase name="Then the first result is titled &quot;The Salvation Army - Miramar (Corps)&quot;" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.416614985">
+        </testcase>
+        <testcase name="And I click on the result title" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.133463055">
+        </testcase>
+        <testcase name="Then I am on a service detail page" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.005828481">
+        </testcase>
+        <testcase name="And the page shows a provider" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.276706167">
+        </testcase>
+        <testcase name="And the provider has a &quot;Directions&quot; link" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.020274712">
+        </testcase>
+        <testcase name="And the link URL contains &quot;dir/-41.277678285716,174.849669865579/&quot;" classname="service-detail;a-service-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.006459764">
+        </testcase>
+    </testsuite>
+    <testsuite name="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/service-results.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" time="2.509290036">
+        </testcase>
+        <testcase name="And I search for &quot;food&quot;" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" time="0.086146236">
+        </testcase>
+        <testcase name="When the address box is empty" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" time="0.26639438">
+        </testcase>
+        <testcase name="Then I consider the first result" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" time="0.96760589">
+        </testcase>
+        <testcase name="And the result has a &quot;Directions&quot; link" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" time="0.04272234">
+        </testcase>
+        <testcase name="And the link URL contains &quot;dir//&quot;" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-even-if-i-didn&apos;t-enter-my-location" time="0.013233375">
+        </testcase>
+    </testsuite>
+    <testsuite name="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/danaiti/dia/FSD/features/service-results.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit the main page" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="2.346458304">
+        </testcase>
+        <testcase name="And I search for &quot;food&quot;" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.073867699">
+        </testcase>
+        <testcase name="When I search near the address &quot;Wellington Harbour&quot;" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="1.307163388">
+        </testcase>
+        <testcase name="Then the first result is titled &quot;The Salvation Army - Miramar (Corps)&quot;" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.355839709">
+        </testcase>
+        <testcase name="And the result has a &quot;Directions&quot; link" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.019843443">
+        </testcase>
+        <testcase name="And the link URL contains &quot;dir/-41.277678285716,174.849669865579/&quot;" classname="search-results;a-search-result-has-a-&quot;directions&quot;-link-which-is-populated-with-my-location" time="0.007764331">
+        </testcase>
+    </testsuite>
+</testsuites>

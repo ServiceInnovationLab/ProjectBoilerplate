@@ -1,31 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
-import { createStore, applyMiddleware } from 'redux';
-import { Provider } from 'react-redux';
-import thunk from 'redux-thunk';
-import { HashRouter, Route } from 'react-router-dom';
-import reducers from './reducers/index';
-import AppCon from './container/app-container';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-const store = createStore(reducers, applyMiddleware(thunk));
+ReactDOM.render(<App />, document.querySelector('#root'));
 
-class App extends React.Component {
-  render() {
-    return (
-      <HashRouter>
-        <div>
-          <h1>Project Boilerplate</h1>
-          <Route exact path="/" component={AppCon} />
-        </div>
-      </HashRouter>
-    );
-  }
-}
-
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root'),
-);
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();

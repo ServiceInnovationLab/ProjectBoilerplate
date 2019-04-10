@@ -38,11 +38,11 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - run: npm install
-      - run: npm run build
+      # - run: npm run build
 
 workflows:
   version: 2
   test-and-build:
     jobs:
       - test
-      - build
+      # - build

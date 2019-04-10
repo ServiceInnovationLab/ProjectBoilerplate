@@ -42,7 +42,7 @@ cp example.env .env
 
 To install dependencies, cd into folder and run
 ```
-npm install
+yarn install
 ```
 
 To run a development server:

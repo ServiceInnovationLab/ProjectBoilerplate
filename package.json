@@ -42,7 +42,7 @@
     "eslint-plugin-react": "^7.12.4",
     "expect": "^24.1.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^23.6.0"
+    "jest": "^24.7.1"
   },
   "jest": {
     "moduleNameMapper": {

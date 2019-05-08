@@ -13,9 +13,9 @@ class AppCon extends Component {
   }
 }
 
-const mapStateToProps = state => state;
+const mapStateToProperties = state => state;
 
 export default connect(
-  mapStateToProps,
+  mapStateToProperties,
   actionCreators,
 )(AppCon);

@@ -9,11 +9,11 @@ class App extends Component {
   }
 }
 
-function mapStateToProps(state) {
+function mapStateToProperties(state) {
   return { state };
 }
 
 export default connect(
-  mapStateToProps,
+  mapStateToProperties,
   actionCreators,
 )(App);

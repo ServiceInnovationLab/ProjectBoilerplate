@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import * as actionCreators from '../actions/index';
+import * as actionCreators from '../actions';
 import '../styles/App.css';
 
 class App extends Component {

@@ -1,4 +1,4 @@
-import * as actions from '../actions/index';
+import * as actions from '../actions';
 
 describe('actions', () => {
   it('should have one test', () => {

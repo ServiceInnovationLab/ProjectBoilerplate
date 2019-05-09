@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import App from '../components/App';
-import * as actionCreators from '../actions/index';
+import * as actionCreators from '../actions';
 
 class AppCon extends Component {
   render() {

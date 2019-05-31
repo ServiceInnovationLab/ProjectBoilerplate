@@ -5,7 +5,7 @@
   "private": true,
   "repository": "git@github.com:ServiceInnovationLab/ProjectBoilerplate.git",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "babel-preset-stage-2": "^6.24.1",
     "geolib": "^3.0.3",
     "gh-pages": "^2.0.1",

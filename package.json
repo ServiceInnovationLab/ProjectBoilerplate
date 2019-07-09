@@ -12,7 +12,7 @@
     "leaflet": "^1.5.1",
     "react": "^16.8.6",
     "react-async-script-loader": "^0.3.0",
-    "react-dom": "^16.8.1",
+    "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-leaflet": "^2.3.0",
     "react-redux": "^7.1.0",

@@ -40,7 +40,7 @@
     "eslint": "^5.16.0",
     "eslint-config-google": "^0.13.0",
     "eslint-plugin-react": "^7.14.2",
-    "expect": "^24.8.0",
+    "expect": "^24.9.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0"
   },
